@@ -1,0 +1,181 @@
+@font-face {
+    font-family: Microsoft sans serif;
+    src: url('./src/assets/fonts/microsoftsansserif.ttf');
+}
+
+@font-face {
+    font-family: Neucha;
+    src: url('./src/assets/fonts/Neucha-Regular.ttf');
+}
+
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --green: #00605C;
+    --size-base: 4px;
+    --content-width-max: 1000px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  width: 100%;
+  max-width: 840px;
+  height: 81px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.logo {
+  width: 171px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.nav {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.nav_link {
+  text-decoration: underline;
+  color: #000000;
+}
+
+.main_photo {
+  width: 100%;
+  max-width: 840px;
+  margin: 40px auto;
+}
+
+.baby {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.title_h1 {
+  font-family: Neucha;
+  font-size: 76px;
+  line-height: 84px;
+  color: #00605C;
+  max-width: 577px;
+  font-weight: 400;
+  text-align: left;
+  margin: 40px 0;
+}
+
+.card {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  width: 100%;
+  max-width: 840px;
+  margin: 40px auto;
+  margin-bottom: 165px;
+}
+
+.card-text {
+  width: 430px;
+}
+
+.card_title {
+  font-size: 44px;
+  font-family: Microsoft sans serif;
+  font-weight: 400;
+  color: #00605C;
+  line-height: 50px;
+  margin: 20px 0;
+}
+
+.card_descr {
+  font-size: 26px;
+  font-family: Microsoft sans serif;
+  line-height: 29px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: Neucha;
+  background-color: #00605C;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 123px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .card-text, .card-image {
+    width: 100%;
+  }
+}
+
+.card-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.card_img {
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  background-color: white;
+}
+
+.footer-left {
+  text-align: left;
+  color: #000000;
+}
+
+.phone {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 35px;
+  font-family: Neucha;
+  margin: 0;
+}
+
+.podpis {
+ font-family: Microsoft Sans Serif;
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 18px;
+  margin: 0;
+}
+.footer-right {
+  display: flex;
+  align-items: center;
+}
+
+.socials {
+  display: flex;
+  gap: 10px;
+}
