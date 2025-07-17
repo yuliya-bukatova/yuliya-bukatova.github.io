@@ -41,7 +41,7 @@ body {
   display: flex;
   align-items: center;
   width: 100%;
-  margin-bottom: 18px; /* ← Новый стиль: отступ между хедером и фото */
+  margin-bottom: 18px; 
 }
 
 .logo {
@@ -76,7 +76,7 @@ a {
 .main_photo {
   width: 100%;
   max-width: 840px;
-  margin: 18px auto 57px; /* top: 18px, bottom: 57px */
+  margin: 18px auto 57px; 
 }
 
 .baby {
@@ -185,7 +185,7 @@ a {
   gap: 10px;
 }
 
-/* === Мобильные устройства до 768px === */
+
 @media (max-width: 768px) {
   .header {
     padding: 18px 20px;
@@ -303,7 +303,7 @@ a {
   }
 }
 
-/* === Очень маленькие экраны (до 400px) === */
+
 @media (max-width: 400px) {
   .card {
     flex-direction: column;
@@ -317,7 +317,7 @@ a {
   }
 }
 
-/* === Дополнительные стили для мелких экранов === */
+
 @media (max-width: 500px) {
   .main_photo {
     padding: 0 20px;
